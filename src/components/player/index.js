@@ -31,7 +31,7 @@ Player.Video = function PlayerVideo({ src, ...restProps }) {
         )
         : null;
 };
-
+/* eslint-disable */
 Player.Button = function PlayerButton({ ...restProps }) {
     const { showPlayer, setShowPlayer } = useContext(PlayerContext);
 
@@ -41,3 +41,4 @@ Player.Button = function PlayerButton({ ...restProps }) {
         </Button>
     );
 };
+/* eslint-enable */

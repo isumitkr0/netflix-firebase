@@ -27,6 +27,7 @@ export function BrowseContainer({ slides }) {
         setSlideRows(slides[category]);
     }, [slides, category]);
 
+
     useEffect(() => {
         const fuse = new Fuse(slideRows, { keys: ['data.description', 'data.title', 'data.genre'] });
         const results = fuse.search(searchTerm).map(({ item }) => item);
