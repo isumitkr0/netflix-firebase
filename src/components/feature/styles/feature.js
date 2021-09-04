@@ -17,7 +17,7 @@ export const Container = styled.div`
 export const Title = styled.h1`
     color: #fff;
     max-width: 640px;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 600;
     margin: 10px auto;
 
@@ -30,8 +30,8 @@ export const Title = styled.h1`
 export const SubTitle = styled.h2`
     color: #fff;
     max-width: 640px;
-    font-size: 1.5em;
-    font-weight: 400;
+    font-size: 26px;
+    font-weight: 500;
     margin: auto;
 
     @media (max-width:600px)
